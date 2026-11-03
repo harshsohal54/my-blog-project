@@ -8,7 +8,8 @@ import "../css/Login.css";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-const LOGIN_URL = "http://localhost:3000/api/user/login-user";
+const LOGIN_URL =
+  "https://api-blogs-rbwl.onrender.com/api/user/login-user";
 
 export default function Login() {
   const [emailorusername, setEmailorUsername] = useState("");
